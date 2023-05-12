@@ -7,10 +7,10 @@ In this module you'll learn how to migrate a monolithic application to the cloud
 In this module you will go through the following actions:
 
 1. Check Prerequisites
-1. Gathering Facts and installing the OneAgent Operator
-1. Lift and Shift Ticketmonster
-1. Extract the UI from the Monolith
-1. Generate some load on the UI
-1. Identifying a Microservice with Dynatrace
-1. Looking at the Domain Model of the Microservice
-1. Deploying the new Microservice
+2. Gathering Facts and installing the OneAgent Operator
+3. Lift and Shift Ticketmonster
+4. Extract the UI from the Monolith
+5. Generate some load on the UI
+6. Identifying a Microservice with Dynatrace
+7. Looking at the Domain Model of the Microservice
+8. Deploying the new Microservice
