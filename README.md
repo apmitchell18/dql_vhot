@@ -1,6 +1,6 @@
 # Dynatrace University Lab Guide Example
 
-![Lab guide example](assets/images/dtu_lab_guide_example.png)
+![Lab guide example](assets/images/lab_guide_example.png)
 
 Dynatrace University provides the ability to provide lab guides for training participants within their virtual classroom. This folder contains an example of the structure and formatting needed to generate these guides.
 
@@ -43,3 +43,11 @@ Each activity needs to have a **Heading 2** as the first line of the index.md. T
 ### Images
 
 All images can be included in the `assets/images` folder. When the lab guide is generated and applied, images will be uploaded to the CDN used by Dynatrace University.
+
+
+
+## Notes
+
+The lab guide in the virtual classroom provides the participant to keep track of their progress when working through the guide. This can be done by clicking the circle to the left of the sub activity name, or clicking "Mark as complete" at the end of the excercise. 
+
+Lab guides are only visible to participants while a DTU event is in progress.

@@ -12,7 +12,7 @@ In this lab you'll learn how to create a container image and how to run a contai
    (bastion)$ cd docker/
    ```
 
-1. Create a new file named `Dockerfile` and add the following content:
+2. Create a new file named `Dockerfile` and add the following content:
 
    ```docker
    FROM alpine:latest
@@ -23,13 +23,13 @@ In this lab you'll learn how to create a container image and how to run a contai
    CMD ["hello_world.sh"]
    ```
 
-1. Create a new file named `hello_world.sh` and add the following content:
+3. Create a new file named `hello_world.sh` and add the following content:
 
    ```bash
    echo "Hello World from a Docker Container."
    ```
 
-1. Ensure that the script is an executable:
+4. Ensure that the script is an executable:
 
    ```bash
    (bastion)$ chmod +x hello_world.sh
@@ -37,25 +37,25 @@ In this lab you'll learn how to create a container image and how to run a contai
 
 ### Step 2. Build and Tag a Container Image
 
-1. Build the container image (`-t` specifies the repository and a tag). The `$USER` variable will tag the image with your username.
+5. Build the container image (`-t` specifies the repository and a tag). The `$USER` variable will tag the image with your username.
 
    ```bash
    (bastion)$ docker build -t acl/hello-world:$USER .
    ```
 
-1. List all container images on your local machine.
+6. List all container images on your local machine.
 
    ```bash
    (bastion)$ docker images
    ```
 
-1. Set another tag.
+7. Set another tag.
 
    ```bash
    (bastion)$ docker tag acl/hello-world:$USER acl/hello-world:$USER-stable
    ```
 
-1. List all container images on your local machine.
+8. List all container images on your local machine.
 
    ```bash
    (bastion)$ docker images
