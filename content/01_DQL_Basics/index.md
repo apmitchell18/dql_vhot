@@ -14,7 +14,7 @@ In this section, you will access the shared Dynatrace environment and review the
 ---
 ### Step 1
 
-Navigate to the **Learn DQL** application in the Dynatrace environment provided for this HOT session:  
+Navigate to the **Learn DQL** application in the Dynatrace environment provided for this training session:  
 
 **[https://zex57197.apps.dynatrace.com/ui/apps/dynatrace.learndql/](https://zex57197.apps.dynatrace.com/ui/apps/dynatrace.learndql/)**
 

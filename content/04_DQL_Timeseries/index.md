@@ -1,4 +1,12 @@
-## Hands-On Exercise 3 - fetch timeseries
+## Querying Metrics with DQL
+
+### Introduction
+
+In this section, you will practice querying entities and relationships with DQL in a Notebook.
+
+In the **[Training Environment](https://zex57197.apps.dynatrace.com/ui/apps/dynatrace.notebooks/notebooks)**, create a new notebook named "Timeseries Exercises".
+
+---
 
 The `timeseries` command is a starting command of DQL. It combines loading, filtering and aggregating metrics data into a time series output.
 
@@ -30,9 +38,7 @@ timeseries min_cpu=min(dt.host.cpu.usage), max(dt.host.cpu.usage), default:99.9,
 
 ### Exercise 1
 
-For these exercises, you will use the **[training environment](https://zcy16892.apps.dynatrace.com/ui/apps/dynatrace.notebooks/notebooks)**. 
-
-Using the timeseries command create a chart within a notebook or dashboard that displays the avg cpu percentage split by host. The resulting chart should be similar to the image below: 
+Using the timeseries command, create a chart within a notebook or dashboard that displays the avg cpu percentage split by host. The resulting chart should be similar to the image below: 
 
 _Note_ - the number of hosts in the training environment may be less than shown below.
 
