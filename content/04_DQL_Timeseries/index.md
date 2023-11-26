@@ -1,8 +1,6 @@
 ## Querying Metrics with DQL
 
-### Introduction
-
-In this section, you will practice querying entities and relationships with DQL in a Notebook.
+In this section, you will practice querying metrics and charing using the `timeseries` command with DQL in a Notebook.
 
 In the **[Training Environment](https://zex57197.apps.dynatrace.com/ui/apps/dynatrace.notebooks/notebooks)**, create a new notebook named "Timeseries Exercises".
 

@@ -1,12 +1,21 @@
-## Hands-On Exercise 1 - Using DQL for Cost Control
+## Optimization and Cost Control in DQL
 
-With the introduction of Grail and DQL, it's important to pay attention to the quality of the queries you and your customer write.  <u>Customers, and you as their trusted advisor, should be consious of how DQL queries affect their consumption. </u>
+The consumption model for both logs and events on DPS is based on three dimensions:
+- **Ingest & Process**: per gibibyte (GiB)
+- **Retain**: per gibibyte-day (GiB-day)
+- **Query**: per gibibyte scanned (GiB scanned)
 
-To help with this, Dynatrace stores data on query executions in Grail, accessible via the **dt.system.query_executions** data object.
+Query data usage occurs during any execution of a query: on the Logs & Events page, on a Dashboard, in a Notebook, etc.  For this reason, it's important to implement best practices when writing queries and be conscious of how often you are executing complex queries.
 
-In this hands-on exercise, you will practice writing a cost-tracking query you can use in your own environments and with your customers.
+To assist with this, Dynatrace stores data on all query executions in Grail, accessible via the **dt.system.query_executions** data object.
 
-<br>
+In this hands-on exercise, you will practice writing a cost-tracking query.
+
+In the **[Training Environment](https://zex57197.apps.dynatrace.com/ui/apps/dynatrace.notebooks/notebooks)**, create a new notebook named "Optimization Exercises".
+
+
+---
+
 
 ### Step 1: Fetch a Sample of Query Execution Data
 

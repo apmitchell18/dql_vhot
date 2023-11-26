@@ -4,18 +4,21 @@ With the introduction of Grail, Dynatrace has fundamentally changed how observab
 
 <br>
 
-This lab will introduce you to the fundamentals of DQL, including:
+This lab will introduce you to the basics of DQL, including:
 - The essential commands of DQL
+- Available data types to query with DQL
 - Constructing a basic DQL query
 - Using DQL in Notebooks to explore data
+
+You will then practice using DQL to solve practical use cases, including:
 - Querying monitored entities and their relationships in DQL
 - Creating charts using the DQL Timeseries command.
+- Querying information on business event data
+- Writing optimized queries.
 
 <br>
 
-Upon completing this lab, you will be able to use DQL to query basic information on logs, entities, and metrics.
-
-Advanced DQL use cases will be covered in the next HOT session: **DQL in Practice**
+Upon completing this course, you will be ready to use DQL to take full advantage of the capatilies of Grail and solve complex use cases.
 
 <br>
 

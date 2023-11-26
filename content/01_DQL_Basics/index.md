@@ -26,9 +26,9 @@ Navigate to the **Learn DQL** application in the Dynatrace environment provided 
 ---
 ### Step 2
 
-Complete the **Beginners Exercises**
+**<u>Objective</u>**: Complete the **Beginners Exercises**
 
-All instructions for this section are inside this App, you will resume using the lab guide in the following sections.
+All instructions for this section are inside this app, you will resume using the lab guide in the following sections.
 
 **Tips:**
 - The queries in this exercise build upon the previous query.  Don't start from stratch, continue to add to the query you're building.

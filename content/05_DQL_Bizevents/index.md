@@ -1,6 +1,8 @@
-## Hands-On Exercise 3 - Querying Business Events
+## Querying Business Events with DQL
 
 In this section, you will practice querying business events with DQL in a Notebook.
+
+In the **[Training Environment](https://zex57197.apps.dynatrace.com/ui/apps/dynatrace.notebooks/notebooks)**, create a new notebook named "Bizevent Exercises".
 
 ---
 

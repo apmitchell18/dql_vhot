@@ -1,6 +1,5 @@
 ## Querying Entities with DQL
 
-### Introduction
 
 In this section, you will practice querying entities and relationships with DQL in a Notebook.
 
