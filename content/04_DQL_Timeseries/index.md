@@ -42,14 +42,14 @@ _Note_ - the number of hosts in the training environment may be less than shown 
 
 ![Host CPU](../../assets/images/CPU_by_host.png)
 
-<H3><details>
-    <summary>Click to Expand Solution</summary>
+<H4><details>
+<summary>Click to Expand Solution</summary>
 
 ```
 timeseries avg(dt.host.cpu.usage), by:{dt.entity.host}
 ```
 
-</H3></details>
+</details></H4>
 
 ### Exercise 2
 
@@ -57,11 +57,11 @@ Using the timeseries command create a chart that displays container cpu usage pe
 
 ![cartservice](../../assets/images/cartservice.png)
 
-<H3><details>
+<H4><details>
     <summary>Click to Expand Solution</summary>
 
 ```
 timeseries avg(dt.containers.cpu.usage_percent), by:{Container}, filter: in(Container, "cartservice")
 ```
 
-</H3></details>
+</details></H4>

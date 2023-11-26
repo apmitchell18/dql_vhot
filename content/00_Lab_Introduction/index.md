@@ -26,6 +26,6 @@ Upon completing this course, you will be ready to use DQL to take full advantage
 <br>
 
 ### Reference:
-- DQL Overview: https://www.dynatrace.com/support/help/shortlink/dql-dynatrace-query-language-hub
-- DQL Commands: https://www.dynatrace.com/support/help/shortlink/dql-commands
-- DQL Functions: https://www.dynatrace.com/support/help/shortlink/dql-functions
+- [DQL Overview](https://www.dynatrace.com/support/help/shortlink/dql-dynatrace-query-language-hub)
+- [DQL Commands](https://www.dynatrace.com/support/help/shortlink/dql-commands)
+- [DQL Functions](https://www.dynatrace.com/support/help/shortlink/dql-functions)

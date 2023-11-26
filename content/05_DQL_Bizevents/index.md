@@ -18,8 +18,7 @@ Three business events have been preconfigured in this environment for the EasyTr
 
 **Hint:** There are two mandatory data fields that all business events must have: _event.provider_, and _event.type_.  
 
-<H4>Expected Result:
-
+**Expected Result:**
 <br>
 
 ![Bizevent Exercise 1 Solution](../../assets/images/bizevent_solution_1.png)
@@ -34,7 +33,7 @@ Three business events have been preconfigured in this environment for the EasyTr
 	| summarize count = count(), by:{event.provider, event.type}
 ```
 
-</H4></details>
+</details></H4>
 
 <br>
 <br>
@@ -53,7 +52,7 @@ One of the business events, _com.easytrade.deposit-money_, represents a user usi
 
 (**Hint:** Check the documentation for a DQL function that can provide a count of unique values: https://www.dynatrace.com/support/help/shortlink/dql-functions)
 
-<H4>Expected Result:
+**Expected Result:**
 
 <br>
 
@@ -70,7 +69,7 @@ One of the business events, _com.easytrade.deposit-money_, represents a user usi
 ```
 
 
-</H4></details>
+</details></H4>
 
 
 <br>
@@ -89,7 +88,7 @@ There are many ways the Summarize command can be used to manipulate the captured
 - Order the list to show the users who have deposited the most amount of money first.
 - Limit to the top 5 depositors
 
-<H4> Expected Result:
+**Expected Result:**
 
 <br>
 
@@ -106,4 +105,4 @@ There are many ways the Summarize command can be used to manipulate the captured
     | limit 5
 ```
 
-</H4></details>
+</details></H4>

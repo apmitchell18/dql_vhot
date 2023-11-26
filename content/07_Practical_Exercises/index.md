@@ -31,6 +31,7 @@ fetch logs
 ### Exercise 2: Entities in Practice
 
 One use case for grail is to provide insight into processes potentially affected by known vulnerabilities.  In this example, lets say that there is a known vulnerability affecting .NET Framework 3.5.  We will use DQL to learn if there are any process groups we should be aware of, and where those are running in order to patch them.
+<br>
 
 <u>**Step 1:**</u> Write and execute a query to obtain a list of process group instances where technology is .NET and the version contains '3.5'.
 
@@ -51,6 +52,7 @@ fetch dt.entity.process_group_instance
 | fieldsAdd softwareTechnologies
 ```
 </details></H4>
+---
 
 <u>**Step 2:**</u> Add the host that each process group instance runs on to the results of your query.
 

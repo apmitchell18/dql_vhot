@@ -21,13 +21,12 @@ Add a new section to your notebook and choose "Query Grail".
 
 **HINT**: If you're unsure what data object to use in your fetch statement, run the following query to view a list of available entity types:
 
-    fetch dt.system.data_objects
-    | filter contains(name, "dt.entity")
-<br>
+```
+fetch dt.system.data_objects
+| filter contains(name, "dt.entity")
+```
 
-<H4> Expected Result:
-
-<br>
+**Expected Result:**
 
 ![Notebooks](../../assets/images/EntitiesSolution1.png)
 
@@ -56,7 +55,7 @@ You can use the **describe** command to query information about the schema of a 
 #### Add a <u>new section</u> to your notebook and use the describe command to list the fields associated with the dt.entity.process_group_instance data object.
 
 
-<H4> Expected Result:
+**Expected Result:**
 
 <br>
 
@@ -89,7 +88,7 @@ Note: When using the **fieldsAdd** command, you will see a list of suggested fie
 #### Return to your <u>original **fetch** query</u> and add processType and lifetime to the results.
 
 
-<H4>Expected Result:
+**Expected Result:**
 
 <br>
 
@@ -128,7 +127,7 @@ and many more.
 (**Hint**: See the [Relationship Mapping Table](https://www.dynatrace.com/support/help/shortlink/grail-querying-monitored-entities#relationship-mapping-table) for information on the relationship functions available in DQL.)
 <br>
 
-<H4>Expected Result:
+**Expected Result:**
 
 <br>
 
@@ -181,7 +180,7 @@ Result:
 
 <br>
 
-<H4>Expected Result:
+**Expected Result:**
 
 <br>
 
